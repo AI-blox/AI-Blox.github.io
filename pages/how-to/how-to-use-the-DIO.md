@@ -22,7 +22,7 @@ There are 4 digital outputs and 4 digital inputs. Both are arranged on one row o
 </p>
 
 
-The external power supply for the I/O (VI/O+ and VI/O-) is required to power the galvanic isolated components of the interface module. It has a voltage range from 12V to 40V DC. 
+The external power supply for the I/O (VI/O+ and VI/O-) is required to power the galvanic isolated components of the interface module. It has a nominal voltage of 24VDC.  
 On both rows of the connector is a VI/O+ and VI/O- pin. Those are inteconnected between the rows. Due to this connection only one external power supply is needed for both inputs and outputs
 Next to each I/O there is also a VI/O+ pin to reduce power wiring branches. 
 
