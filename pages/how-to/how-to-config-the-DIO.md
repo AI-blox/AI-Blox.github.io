@@ -1,6 +1,6 @@
 ---
 layout: default
-title: How to connect the IB-0x10 digital input and outputs
+title: How to configure the IB-0x10 digital input and outputs
 parent: How to
 nav_order: 6
 has_children: false
