@@ -2,7 +2,7 @@
 layout: default
 title: How to configure the IB-0x10 digital input and outputs
 parent: How to
-nav_order: 6
+nav_order: 2
 has_children: false
 has_toc: false
 ---

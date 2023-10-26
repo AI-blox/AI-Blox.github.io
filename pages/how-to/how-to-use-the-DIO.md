@@ -2,7 +2,7 @@
 layout: default
 title: How to connect the IB-0x10 digital input and outputs
 parent: How to
-nav_order: 5
+nav_order: 3
 has_children: false
 has_toc: false
 ---
