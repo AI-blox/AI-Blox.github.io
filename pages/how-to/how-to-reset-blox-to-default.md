@@ -2,7 +2,7 @@
 layout: default
 title: How to reset a BLOX to default
 parent: How to
-nav_order: 7
+nav_order: 8
 has_children: false
 has_toc: false
 ---
