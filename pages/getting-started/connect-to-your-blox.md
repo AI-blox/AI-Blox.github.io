@@ -166,7 +166,7 @@ Now the IP address is known, we can connect on the network over SSH.
 ```bash
 $ ssh ai-blox@xx.xx.xx.xx
 ```
-Where the `xx.xx.xx.xx` is the IP address retreived in the previous step and the user will be `ai-blox`
+Where the `xx.xx.xx.xx` is the IP address retrieved in the previous step and the user will be `ai-blox`
 
 On the first time connection, you will have to answer `yes` in the console on question regarding the certificate. 
 
