@@ -12,7 +12,7 @@ has_toc: false
 A Blox equiped with the CB-02x0 module has an LTE modem mounted into the mPCIE slot. The sections below explain how to setup the connection to the network operator of a SIM card. 
 
 
-Pre-requisites is that you have a SIM card available and it is [installed in the Blox SIM card holder.](pages\how-to\how-to-1.md)
+Pre-requisites is that you have a SIM card available and it is [installed in the Blox SIM card holder.](pages\how-to\how-to-1.html)
 
 ## Find LTE modem with ModemManager
 
