@@ -15,7 +15,7 @@ has_toc: false
 
 - for Jetson Nano headless, MX1010-1: [mfi_mx1010-1_JetPack4.6.1.tar.bz2](https://downloads-ai-blox.s3.eu-central-1.amazonaws.com/mfi_mx1010-1_Jetpack4.6.1.tar.bz2)
 - for Jetson Nano touchscreen, MX1010-2: [mfi_mx1010-2.tar.bz2](https://downloads-ai-blox.s3.eu-central-1.amazonaws.com/mfi_mx1010-2.tar.bz2)
-- for Jetson Xavier NX headless, MX1030-1 or MX1030-2: [mfi_mx1030-1.tar.bz2](https://downloads-ai-blox.s3.eu-central-1.amazonaws.com/mfi_mx1030-1.tar.bz2)
+- for Jetson Xavier NX headless, MX1030-1 or MX1030-3: [mfi_mx1030-1.tar.bz2](https://downloads-ai-blox.s3.eu-central-1.amazonaws.com/mfi_mx1030-1.tar.bz2)
 - for Jetson Xavier NX touchscreen, MX1030-2 or MX1030-4: [mfi_mx1030-2.tar.bz2](https://downloads-ai-blox.s3.eu-central-1.amazonaws.com/mfi_mx1030-2.tar.bz2)
 
 ## Step 2: unzip the image
