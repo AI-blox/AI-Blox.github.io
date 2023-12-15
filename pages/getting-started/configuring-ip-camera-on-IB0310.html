@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en-US"> <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> <meta charset="UTF-8"> <meta http-equiv="X-UA-Compatible" content="IE=Edge"> <title>Configuring the IB-03x0 for IP Cameras - Hardware for edge AI</title> <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"> <link rel="stylesheet" href="/assets/css/just-the-docs-default.css"> <script type="text/javascript" src="/assets/js/just-the-docs.js"></script> <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- Begin Jekyll SEO tag v2.8.0 --> <title>Configuring the IB-03x0 for IP Cameras | Hardware for edge AI</title> <meta name="generator" content="Jekyll v4.2.2"> <meta property="og:title" content="Configuring the IB-03x0 for IP Cameras"> <meta property="og:locale" content="en_US"> <meta name="description" content="docs page"> <meta property="og:description" content="docs page"> <link rel="canonical" href="https://docs.ai-blox.com/pages/getting-started/configuring-ip-camera-on-IB0310.html"> <meta property="og:url" content="https://docs.ai-blox.com/pages/getting-started/configuring-ip-camera-on-IB0310.html"> <meta property="og:site_name" content="Hardware for edge AI"> <meta property="og:type" content="website"> <meta name="twitter:card" content="summary"> <meta property="twitter:title" content="Configuring the IB-03x0 for IP Cameras"> <script type="application/ld+json"> {"@context":"https://schema.org","@type":"WebPage","description":"docs page","headline":"Configuring the IB-03x0 for IP Cameras","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://docs.ai-blox.com/assets/images/AIBlox%20horizontal@0.5x.png"}},"url":"https://docs.ai-blox.com/pages/getting-started/configuring-ip-camera-on-IB0310.html"}</script> <!-- End Jekyll SEO tag --> <!-- Add Myriad font to the websit --> <link rel="stylesheet" href="https://use.typekit.net/muu2jyd.css"> </head> <body> <svg xmlns="http://www.w3.org/2000/svg" style="display: none;"> <symbol id="svg-link" viewbox="0 0 24 24"> <title>Link</title> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-link"> <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path> </svg> </symbol> <symbol id="svg-search" viewbox="0 0 24 24"> <title>Search</title> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search"> <circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line> </svg> </symbol> <symbol id="svg-menu" viewbox="0 0 24 24"> <title>Menu</title> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu"> <line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line> </svg> </symbol> <symbol id="svg-arrow-right" viewbox="0 0 24 24"> <title>Expand</title> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right"> <polyline points="9 18 15 12 9 6"></polyline> </svg> </symbol> <symbol id="svg-doc" viewbox="0 0 24 24"> <title>Document</title> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file"> <path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"></path><polyline points="13 2 13 9 20 9"></polyline> </svg> </symbol> </svg> <div class="side-bar"> <div class="site-header"> <a href="https://docs.ai-blox.com/" class="site-title lh-tight"> <div class="site-logo"></div> </a> <a href="#" id="menu-button" class="site-button"> <svg viewbox="0 0 24 24" class="icon"><use xlink:href="#svg-menu"></use></svg> </a> </div> <nav role="navigation" aria-label="Main" id="site-nav" class="site-nav"> <ul class="nav-list">
+<li class="nav-list-item"><a href="https://docs.ai-blox.com/" class="nav-list-link">Home</a></li>
+<li class="nav-list-item active">
+<a href="#" class="nav-list-expander"><svg viewbox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a><a href="https://docs.ai-blox.com/pages/getting-started/getting-started.html" class="nav-list-link">Getting Started</a><ul class="nav-list ">
+<li class="nav-list-item "><a href="https://docs.ai-blox.com/pages/getting-started/connect-to-your-blox.html" class="nav-list-link">Connect to your Blox</a></li>
+<li class="nav-list-item active"><a href="https://docs.ai-blox.com/pages/getting-started/configuring-ip-camera-on-IB0310.html" class="nav-list-link active">Configuring the IB-03x0 for IP Cameras</a></li>
+</ul>
+</li>
+<li class="nav-list-item">
+<a href="#" class="nav-list-expander"><svg viewbox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a><a href="https://docs.ai-blox.com/pages/how-to/how-to.html" class="nav-list-link">How to</a><ul class="nav-list ">
+<li class="nav-list-item "><a href="https://docs.ai-blox.com/pages/how-to/how-to-config-the-DIO.html" class="nav-list-link">How to configure the IB-0x10 digital input and outputs</a></li>
+<li class="nav-list-item "><a href="https://docs.ai-blox.com/pages/how-to/how-to-use-the-DIO.html" class="nav-list-link">How to connect the IB-0x10 digital input and outputs</a></li>
+<li class="nav-list-item "><a href="https://docs.ai-blox.com/pages/how-to/how-to-connect-to-wifi.html" class="nav-list-link">How to connect to WiFi</a></li>
+<li class="nav-list-item "><a href="https://docs.ai-blox.com/pages/how-to/how-to-1.html" class="nav-list-link">How to install a SIM card</a></li>
+<li class="nav-list-item "><a href="https://docs.ai-blox.com/pages/how-to/how-to-connect-to-LTE.html" class="nav-list-link">How to connect to LTE</a></li>
+<li class="nav-list-item "><a href="https://docs.ai-blox.com/pages/how-to/how-to-get-GPS-data.html" class="nav-list-link">How to the Blox location from GNSS with the IB-0310</a></li>
+<li class="nav-list-item "><a href="https://docs.ai-blox.com/pages/how-to/how-to-reset-blox-to-default.html" class="nav-list-link">How to reset a BLOX to default</a></li>
+</ul>
+</li>
+<li class="nav-list-item">
+<a href="#" class="nav-list-expander"><svg viewbox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a><a href="https://docs.ai-blox.com/pages/blox/" class="nav-list-link">BLOX</a><ul class="nav-list ">
+<li class="nav-list-item ">
+<a href="#" class="nav-list-expander"><svg viewbox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a><a href="https://docs.ai-blox.com/pages/blox/hardware/hardware.html" class="nav-list-link">Hardware</a><ul class="nav-list">
+<li class="nav-list-item "> <a href="https://docs.ai-blox.com/pages/blox/hardware/stress-test.html" class="nav-list-link">Stress test</a> </li>
+<li class="nav-list-item "> <a href="https://docs.ai-blox.com/pages/blox/hardware/connector-pinout.html" class="nav-list-link">Connector pinout</a> </li>
+</ul>
+</li>
+<li class="nav-list-item ">
+<a href="#" class="nav-list-expander"><svg viewbox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a><a href="https://docs.ai-blox.com/pages/blox/kernel/kernel.html" class="nav-list-link">Kernel</a><ul class="nav-list">
+<li class="nav-list-item "> <a href="https://docs.ai-blox.com/pages/blox/kernel/build-the-AIB-L4T.html" class="nav-list-link">Build the AIB-L4T</a> </li>
+<li class="nav-list-item "> <a href="https://docs.ai-blox.com/pages/blox/kernel/kernel-support.html" class="nav-list-link">Kernel Support</a> </li>
+<li class="nav-list-item "> <a href="https://docs.ai-blox.com/pages/blox/kernel/jetpack.html" class="nav-list-link">JetPack Support</a> </li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="nav-list-item">
+<a href="#" class="nav-list-expander"><svg viewbox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a><a href="https://docs.ai-blox.com/pages/interface-modules/interface-module.html" class="nav-list-link">Interface Modules</a><ul class="nav-list ">
+<li class="nav-list-item "><a href="https://docs.ai-blox.com/pages/interface-modules/IB-0100.html" class="nav-list-link">IB-0100</a></li>
+<li class="nav-list-item "><a href="https://docs.ai-blox.com/pages/interface-modules/IB-0200.html" class="nav-list-link">IB-0200</a></li>
+<li class="nav-list-item "><a href="https://docs.ai-blox.com/pages/interface-modules/IB-0210.html" class="nav-list-link">IB-0210</a></li>
+<li class="nav-list-item "><a href="https://docs.ai-blox.com/pages/interface-modules/IB-0300.html" class="nav-list-link">IB-0300</a></li>
+<li class="nav-list-item "><a href="https://docs.ai-blox.com/pages/interface-modules/IB-0310.html" class="nav-list-link">IB-0310</a></li>
+</ul>
+</li>
+<li class="nav-list-item">
+<a href="#" class="nav-list-expander"><svg viewbox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a><a href="https://docs.ai-blox.com/pages/comm-modules/comm-modules.html" class="nav-list-link">Comm Modules</a><ul class="nav-list ">
+<li class="nav-list-item "><a href="https://docs.ai-blox.com/pages/comm-modules/CB-0010.html" class="nav-list-link">CB-0010</a></li>
+<li class="nav-list-item ">
+<a href="#" class="nav-list-expander"><svg viewbox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a><a href="https://docs.ai-blox.com/pages/comm-modules/CB-0011.html" class="nav-list-link">CB-0011</a><ul class="nav-list"><li class="nav-list-item "> <a href="https://docs.ai-blox.com/pages/comm-modules/acropack/CB-0011-AP482.html" class="nav-list-link">AP282</a> </li></ul>
+</li>
+<li class="nav-list-item "><a href="https://docs.ai-blox.com/pages/comm-modules/CB-0100.html" class="nav-list-link">CB-0100</a></li>
+<li class="nav-list-item "><a href="https://docs.ai-blox.com/pages/comm-modules/CB-0110.html" class="nav-list-link">CB-0110</a></li>
+<li class="nav-list-item "><a href="https://docs.ai-blox.com/pages/comm-modules/CB-0200.html" class="nav-list-link">CB-0200</a></li>
+<li class="nav-list-item "><a href="https://docs.ai-blox.com/pages/comm-modules/CB-0210.html" class="nav-list-link">CB-0210</a></li>
+</ul>
+</li>
+</ul> </nav> <footer class="site-footer"> This site uses <a href="https://github.com/pmarsceill/just-the-docs">Just the Docs</a>, a documentation theme for Jekyll. </footer> </div> <div class="main" id="top"> <div id="main-header" class="main-header"> </div> <div id="main-content-wrap" class="main-content-wrap"> <nav aria-label="Breadcrumb" class="breadcrumb-nav"> <ol class="breadcrumb-nav-list"> <li class="breadcrumb-nav-list-item"><a href="https://docs.ai-blox.com/pages/getting-started/getting-started.html">Getting Started</a></li> <li class="breadcrumb-nav-list-item"><span>Configuring the IB-03x0 for IP Cameras</span></li> </ol> </nav> <div id="main-content" class="main-content" role="main"> <h1 id="configuring-the-ib-03x0-for-ip-cameras"> <a href="#configuring-the-ib-03x0-for-ip-cameras" class="anchor-heading" aria-labelledby="configuring-the-ib-03x0-for-ip-cameras"><svg viewbox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Configuring the IB-03x0 for IP Cameras </h1> <hr> <p>Next step after being able to connect to your blox device over ssh or VNC on your local LAN, it setting up a DHCP server for the IB-03x0. The following steps will show how to install and configure the <code class="language-plaintext highlighter-rouge">isc-dhcp-server</code> on your device.</p> <h3 id="prerequisites"> <a href="#prerequisites" class="anchor-heading" aria-labelledby="prerequisites"><svg viewbox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Prerequisites </h3> <p>At least one IP camera (PoE preferred but optional) to be able to test the configuration.</p> <h3 id="remark"> <a href="#remark" class="anchor-heading" aria-labelledby="remark"><svg viewbox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Remark </h3> <p>To be able to use PoE on the IB-03x0, the Blox need to be powered with 48V. The standard power supply shipped with any Blox device is 48V. Just in case you want to use a custom power supply.</p> <h3 id="dhcp-configuration"> <a href="#dhcp-configuration" class="anchor-heading" aria-labelledby="dhcp-configuration"><svg viewbox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> DHCP Configuration </h3> <p>The IB-03x0 has 4 Ethernet ports. Each of them will be assigned a fixed IP address on a different subnet and a DHCP range between 100 and 200.</p> <p>Overview of the configuration</p> <p><img src="/assets/images/pages/getting-started/IB-03x0-DHCP-Eth-Config-Ports.png" alt="IB-03x0-EthernetPorts"></p> <ul> <li>Ethernet port 1 (eth1): <ul> <li>fixed IP address: 192.168.10.1</li> <li>DHCP range active between 192.168.10.100 to 192.168.10.200</li> </ul> </li> <li>Ethernet port 2 (eth2): <ul> <li>fixed IP address: 192.168.20.1</li> <li>DHCP range active between 192.168.20.100 to 192.168.20.200</li> </ul> </li> <li>Ethernet port 3 (eth3): <ul> <li>fixed IP address: 192.168.30.1</li> <li>DHCP range active between 192.168.30.100 to 192.168.30.200</li> </ul> </li> <li>Ethernet port 4 (eth4): <ul> <li>fixed IP address: 192.168.40.1</li> <li>DHCP range active between 192.168.40.100 to 192.168.40.200</li> </ul> </li> </ul> <h2 id="step-1-install-the-dhcp-server"> <a href="#step-1-install-the-dhcp-server" class="anchor-heading" aria-labelledby="step-1-install-the-dhcp-server"><svg viewbox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Step 1: Install the DHCP server </h2> <p>Before installing the DHCP server, you will need to be logged in on to your blox over ssh or VNC as described in the previous step.</p> <p>Within the Terminal, install the <code class="language-plaintext highlighter-rouge">isc-dhcp-server</code> server with the command below.</p> <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span><span class="nb">sudo </span>apt <span class="nb">install </span>isc-dhcp-server
+</code></pre></div></div> <h2 id="step-2-install-nano"> <a href="#step-2-install-nano" class="anchor-heading" aria-labelledby="step-2-install-nano"><svg viewbox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Step 2: Install nano </h2> <p>In the following steps, some files need to be edited from the terminal and <code class="language-plaintext highlighter-rouge">nano</code> is a convenient way to do this. If you prefer to use <code class="language-plaintext highlighter-rouge">vim</code>, this is already pre-installed.</p> <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span><span class="nb">sudo </span>apt <span class="nb">install </span>nano
+</code></pre></div></div> <h2 id="step-3-set-fix-ip-address-for-the-ethernet-ports"> <a href="#step-3-set-fix-ip-address-for-the-ethernet-ports" class="anchor-heading" aria-labelledby="step-3-set-fix-ip-address-for-the-ethernet-ports"><svg viewbox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Step 3: Set fix IP-address for the Ethernet ports </h2> <p>To set the fixed IP-adress for each ethernet</p> <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$sudo</span> nano /etc/network/interfaces
+</code></pre></div></div> <p>The file will open in the terminal, add following configuration to it.</p> <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>auto eth1
+iface eth1 inet static
+   address 192.168.10.1
+   netmask 255.255.255.0
+
+auto eth2
+iface eth2 inet static
+   address 192.168.20.1
+   netmask 255.255.255.0
+
+auto eth3
+iface eth3 inet static
+   address 192.168.30.1
+   netmask 255.255.255.0
+
+auto eth4
+iface eth4 inet static
+   address 192.168.40.1
+   netmask 255.255.255.0
+</code></pre></div></div> <p>Once done, <code class="language-plaintext highlighter-rouge">Ctrl+X</code> followed by <code class="language-plaintext highlighter-rouge">Y</code> to save the file.</p> <h2 id="step-4-setup-the-dhcpdconf"> <a href="#step-4-setup-the-dhcpdconf" class="anchor-heading" aria-labelledby="step-4-setup-the-dhcpdconf"><svg viewbox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Step 4: Setup the dhcpd.conf </h2> <p>In the dhcpd.conf file, the options for domain name can be placed in comments and a basic subnet declaration will be added.</p> <p>First open the <code class="language-plaintext highlighter-rouge">dhcpd.conf</code> file with <code class="language-plaintext highlighter-rouge">nano</code></p> <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span><span class="nb">sudo </span>nano /etc/dhcp/dhcpd.conf
+</code></pre></div></div> <p>Scroll the cusror down with the arrow key of your keyboard until <code class="language-plaintext highlighter-rouge">option definitions common to all supported networks...</code>. The two options below this line can be placed in comments by adding a <code class="language-plaintext highlighter-rouge">#</code> at the start of each line as shown below.</p> <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># option definitions common to all supported networks...</span>
+<span class="c"># option domain-name "example.org";</span>
+<span class="c"># option domain-name-servers ns1.example.org, ns2.example.org;</span>
+</code></pre></div></div> <p>Now scroll down to the end of the file and add follow subnet declaration</p> <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># This is a very basic subnet declaration.</span>
+
+subnet 192.168.10.0 netmask 255.255.255.0 <span class="o">{</span>
+  range 192.168.10.100 192.168.10.100<span class="p">;</span>
+  option routers 192.168.10.1<span class="p">;</span>
+<span class="o">}</span>
+
+subnet 192.168.20.0 netmask 255.255.255.0 <span class="o">{</span>
+  range 192.168.20.100 192.168.20.100<span class="p">;</span>
+  option routers 192.168.20.1<span class="p">;</span>
+<span class="o">}</span>
+
+subnet 192.168.30.0 netmask 255.255.255.0 <span class="o">{</span>
+  range 192.168.30.100 192.168.30.100<span class="p">;</span>
+  option routers 192.168.30.1<span class="p">;</span>
+<span class="o">}</span>
+
+subnet 192.168.40.0 netmask 255.255.255.0 <span class="o">{</span>
+  range 192.168.40.100 192.168.40.100<span class="p">;</span>
+  option routers 192.168.40.1<span class="p">;</span>
+<span class="o">}</span>
+</code></pre></div></div> <p>Now use, <code class="language-plaintext highlighter-rouge">Ctrl+X</code> followed by <code class="language-plaintext highlighter-rouge">Y</code> to save the file.</p> <h2 id="step-4-add-interfaces"> <a href="#step-4-add-interfaces" class="anchor-heading" aria-labelledby="step-4-add-interfaces"><svg viewbox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Step 4: Add interfaces </h2> <p>Now the interfaces that will be used for DHCP need to be configured.</p> <p>FIrst open the <code class="language-plaintext highlighter-rouge">/etc/default/isc-dhcp-server</code> file with <code class="language-plaintext highlighter-rouge">nano</code></p> <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span><span class="nb">sudo </span>nano /etc/default/isc-dhcp-server
+</code></pre></div></div> <p>Now add the ethernet interfaces <code class="language-plaintext highlighter-rouge">"eth1 eth2 eth3 eth4"</code> to the file</p> <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># add eth1, eth2, eth3 and eth4 to INTERFACESv4</span>
+<span class="nv">INTERFACESv4</span><span class="o">=</span><span class="s2">"eth1 eth2 eth3 eth4"</span>
+</code></pre></div></div> <p>Now use, <code class="language-plaintext highlighter-rouge">Ctrl+X</code> followed by <code class="language-plaintext highlighter-rouge">Y</code> to save the file.</p> <h2 id="step-5-enable-dhcp-server"> <a href="#step-5-enable-dhcp-server" class="anchor-heading" aria-labelledby="step-5-enable-dhcp-server"><svg viewbox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Step 5: Enable dhcp server </h2> <p>Now the DHCP server is configured, it can be enabled to automatically start at next boot of the Blox.</p> <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span><span class="nb">sudo </span>systemctl <span class="nb">enable </span>isc-dhcp-server
+</code></pre></div></div> <p>Now we will need to restart the Blox.</p> <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span><span class="nb">sudo </span>reboot now
+</code></pre></div></div> <p>Your <code class="language-plaintext highlighter-rouge">ssh</code> connection will be lost.</p> <p>During the reboot you can connect an IP camera to one of the IB-03x0 ports.</p> <h2 id="step-6-testing-the-dhcp-server"> <a href="#step-6-testing-the-dhcp-server" class="anchor-heading" aria-labelledby="step-6-testing-the-dhcp-server"><svg viewbox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Step 6: Testing the DHCP server </h2> <p>When the Blox is restarted, you can login again over ssh with the know IP address of the Blox on your network.</p> <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>ssh ai-blox@xxx.xxx.xxx.xxx
+</code></pre></div></div> <p>When logged in, first check if the DHCP server is running.</p> <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span><span class="nb">sudo </span>systemctl status isc-dhcp-server
+</code></pre></div></div> <p>The output will indicate that the DHCP server is running.<br> If you already have connected an IP camera to one of the ports, it will have received an IP address and will show in the output.</p> <p>Below is an example of the output of the status request. Which indicates there is an IP lease for a camera connected to port 3.</p> <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>● isc-dhcp-server.service - ISC DHCP IPv4 server
+   Loaded: loaded <span class="o">(</span>/lib/systemd/system/isc-dhcp-server.service<span class="p">;</span> enabled<span class="p">;</span> vendor preset: enabled<span class="o">)</span>
+   Active: active <span class="o">(</span>running<span class="o">)</span> since Thu 2023-04-13 07:03:27 UTC<span class="p">;</span> 2h 23min ago
+     Docs: man:dhcpd<span class="o">(</span>8<span class="o">)</span>
+ Main PID: 10014 <span class="o">(</span>dhcpd<span class="o">)</span>
+    Tasks: 1 <span class="o">(</span>limit: 4915<span class="o">)</span>
+   CGroup: /system.slice/isc-dhcp-server.service
+           └─10014 dhcpd <span class="nt">-user</span> dhcpd <span class="nt">-group</span> dhcpd <span class="nt">-f</span> <span class="nt">-4</span> <span class="nt">-pf</span> /run/dhcp-server/dhcpd.pid <span class="nt">-cf</span> /etc/dhcp/dhcpd.conf eth1 eth2 eth3 eth4
+
+Apr 13 09:20:03 tegra-ubuntu dhcpd[10014]: DHCPREQUEST <span class="k">for </span>192.168.30.101 from 00:62:6e:ef:b2:76 via eth3
+Apr 13 09:20:03 tegra-ubuntu dhcpd[10014]: DHCPACK on 192.168.30.101 to 00:62:6e:ef:b2:76 via eth3
+Apr 13 09:25:02 tegra-ubuntu dhcpd[10014]: DHCPREQUEST <span class="k">for </span>192.168.30.101 from 00:62:6e:ef:b2:76 via eth3
+Apr 13 09:25:02 tegra-ubuntu dhcpd[10014]: DHCPACK on 192.168.30.101 to 00:62:6e:ef:b2:76 via eth3
+Apr 13 09:26:08 tegra-ubuntu dhcpd[10014]: reuse_lease: lease age 66 <span class="o">(</span>secs<span class="o">)</span> under 25% threshold, reply with unaltered, existing lease <span class="k">for </span>192.168.30.101
+Apr 13 09:26:08 tegra-ubuntu dhcpd[10014]: DHCPDISCOVER from 00:62:6e:ef:b2:76 via eth3
+Apr 13 09:26:09 tegra-ubuntu dhcpd[10014]: DHCPOFFER on 192.168.30.101 to 00:62:6e:ef:b2:76 via eth3
+Apr 13 09:26:09 tegra-ubuntu dhcpd[10014]: reuse_lease: lease age 67 <span class="o">(</span>secs<span class="o">)</span> under 25% threshold, reply with unaltered, existing lease <span class="k">for </span>192.168.30.101
+Apr 13 09:26:09 tegra-ubuntu dhcpd[10014]: DHCPREQUEST <span class="k">for </span>192.168.30.101 <span class="o">(</span>192.168.30.1<span class="o">)</span> from 00:62:6e:ef:b2:76 via eth3
+Apr 13 09:26:09 tegra-ubuntu dhcpd[10014]: DHCPACK on 192.168.30.101 to 00:62:6e:ef:b2:76 via eth3
+</code></pre></div></div> <p>You can also check the IP leases that have been used in <code class="language-plaintext highlighter-rouge">/var/lib/dhcp/dhcpd.leases</code></p> <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>more /var/lib/dhcp/dhcpd.leases
+</code></pre></div></div> <p>Below is an example of a lease.</p> <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>lease 192.168.20.100 <span class="o">{</span>
+  starts 4 2023/04/13 09:39:12<span class="p">;</span>
+  ends 4 2023/04/13 09:49:12<span class="p">;</span>
+  cltt 4 2023/04/13 09:39:12<span class="p">;</span>
+  binding state active<span class="p">;</span>
+  next binding state free<span class="p">;</span>
+  rewind binding state free<span class="p">;</span>
+  hardware ethernet 00:62:6e:ef:b2:76<span class="p">;</span>
+  uid <span class="s2">"</span><span class="se">\0</span><span class="s2">01</span><span class="se">\0</span><span class="s2">00bn</span><span class="se">\3</span><span class="s2">57</span><span class="se">\2</span><span class="s2">62v"</span><span class="p">;</span>
+  <span class="nb">set </span>vendor-class-identifier <span class="o">=</span> <span class="s2">" </span><span class="se">\"\"</span><span class="s2">"</span><span class="p">;</span>
+<span class="o">}</span>
+</code></pre></div></div> <p>Now you can ping the IP Camera with the IP address from the output of the status request.</p> <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>ping xxx.xxx.xxx.xxx
+</code></pre></div></div> <p>Example of a successful ping connected to eth2 port on the IB-03x0.</p> <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>ping 192.168.20.100
+PING 192.168.20.100 <span class="o">(</span>192.168.20.100<span class="o">)</span> 56<span class="o">(</span>84<span class="o">)</span> bytes of data.
+64 bytes from 192.168.20.100: <span class="nv">icmp_seq</span><span class="o">=</span>1 <span class="nv">ttl</span><span class="o">=</span>64 <span class="nb">time</span><span class="o">=</span>0.964 ms
+64 bytes from 192.168.20.100: <span class="nv">icmp_seq</span><span class="o">=</span>2 <span class="nv">ttl</span><span class="o">=</span>64 <span class="nb">time</span><span class="o">=</span>0.770 ms
+64 bytes from 192.168.20.100: <span class="nv">icmp_seq</span><span class="o">=</span>3 <span class="nv">ttl</span><span class="o">=</span>64 <span class="nb">time</span><span class="o">=</span>0.820 ms
+64 bytes from 192.168.20.100: <span class="nv">icmp_seq</span><span class="o">=</span>4 <span class="nv">ttl</span><span class="o">=</span>64 <span class="nb">time</span><span class="o">=</span>0.752 ms
+</code></pre></div></div> <h2 id="extra-port-forwarding-to-access-your-camera-directly"> <a href="#extra-port-forwarding-to-access-your-camera-directly" class="anchor-heading" aria-labelledby="extra-port-forwarding-to-access-your-camera-directly"><svg viewbox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Extra: Port forwarding to access your camera directly </h2> <p>To access your camera directly over the network, port forwarding will need to be configured. The Ethernet port connected to your network is <code class="language-plaintext highlighter-rouge">eth0</code>. On this interface port 388 in the example below will be used to forward to your the camera IP address on port 88.</p> <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span><span class="nb">sudo</span> <span class="nt">-s</span>
+<span class="nv">$ </span><span class="nb">echo </span>1 <span class="o">&gt;</span> /proc/sys/net/ipv4/ip_forward
+<span class="nv">$ </span><span class="nb">exit</span>
+<span class="nv">$ </span><span class="nb">sudo </span>iptables <span class="nt">-t</span> nat <span class="nt">-A</span> POSTROUTING <span class="nt">-o</span> eth0 <span class="nt">-j</span> MASQUERADE 
+<span class="nv">$ </span><span class="nb">sudo </span>iptables <span class="nt">-t</span> nat <span class="nt">-A</span> PREROUTING <span class="nt">-i</span> eth0 <span class="nt">-p</span> tcp <span class="nt">-d</span> 192.168.1.41 <span class="nt">--dport</span> 388 <span class="nt">-j</span> DNAT <span class="nt">--to-destination</span> 192.168.10.102:88
+</code></pre></div></div> </div> </div> </div> </body> </html>
